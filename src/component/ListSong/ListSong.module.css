@@ -1,0 +1,60 @@
+.listsong{
+    width: 70vw;
+    overflow-y: scroll;
+}
+.table{
+    display: block; 
+}
+.num,
+.title,
+.author,
+.download{
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+.num{
+    margin-left: 1rem;
+    width: 1rem;
+}
+.title{
+    margin-left: 6rem;
+    width: 60rem;
+}
+.author{
+    margin-left: 20rem;
+    width: 30rem;
+}
+.download{
+    margin-left: 5rem;
+}
+.a{
+    display: flex;
+}
+.b{
+    margin-top: 3rem;
+}
+.listtitle{
+    display: flex;
+    margin-left: 3.7rem;
+    height: 3rem;
+    position: fixed;
+    background-color: black;
+    color: white;
+}
+.song{
+    display: flex;
+    background-color:rgb(23, 152, 161);
+    margin-top:1rem;
+    height: 4rem;
+    border-radius: .4rem;
+    justify-content: center;
+    align-items: center;
+}
+.song:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.listsongs{
+    background-color:rgb(23, 119, 184);
+}

@@ -1,0 +1,32 @@
+.detailsong{
+    width: 30vw;
+    background-color: darkblue;
+}
+
+.title_1,
+.title_2,
+.title_avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.avatar,
+.avatar_name{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.avatar_avatar{
+    width: 30rem;
+    height: 40rem;
+}
+.avatar_name_avatar{
+    height: 6rem;
+    border-radius: 50%;
+}
+.title_avatar{
+    margin-left: 1rem;
+    margin-bottom: .2rem;
+}

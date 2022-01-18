@@ -1,0 +1,13 @@
+@import 'react-h5-audio-player/lib/styles.css';
+.audio{
+    margin:auto auto;
+    background-color: blanchedalmond !important;
+}
+.play{
+    background-color: rgb(50, 179, 136);
+    height: 20vh;
+    display: flex;
+}
+.rhap_time, .rhap_current-time {
+    color: white !important;
+}
